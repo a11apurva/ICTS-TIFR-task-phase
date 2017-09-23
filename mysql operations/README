@@ -1,0 +1,12 @@
+a. Create new mySQL Database
+b. Create new database user account
+c. Create a table “astophysics_users” with fields “name”, “designation” and “email”, and insert the values:
+d. Create another table “astophysics_students” by taking the record from “astrophysics_users” table, but the new table would only include the student records.
+
+
+Please modify the following fields accordingly 
+at line 3 and line 29 : 
+host="localhost" 
+user="root" 
+passwd="pass" 
+
