@@ -1,0 +1,25 @@
+Tasks performed :
+
+a. Compress the multiple directories like “/home/user /etc/apache2 /var/www” into a single tar file.
+b. On successful compression, copy the tar file to a remote storage and keep one copy at your local system such that your local system always has last 7 days tar file.
+c. It should send an email to a specified email ID on any unsuccessful operation or on backup fail.
+
+
+
+Run the script at the home directory 
+else
+Set the path of the backup folder and the files/folders to be compressed accordingly.
+
+
+Before running the script please set the following :
+1. file or directories to be compressed by changing or adding the fields in the list: directories=['file1','direc1/file1'] at line 7
+2. email_sender
+3. email_receiver
+4. password
+5. SMTP host and port
+
+To send compressed file to remote machine:
+1. set remote_path at line 13
+2. uncomment transfer_file at line 58
+
+
