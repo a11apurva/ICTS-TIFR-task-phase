@@ -15,10 +15,10 @@ print(('%'+str(int(columns)) +'s') %(word) )
 print("\n")
 
 
-##Left,Center,Right
+##Left-Center-Right
 word=["hello1","hello2","hello3"]
 length=len(word[0])+len(word[1])+len(word[2])
 multi_factor = int( int(columns)/2 - (length/2) )
 line = ("%s%s%s%s%s" % (word[0], "*"*multi_factor, word[1], "*"*multi_factor , word[2]))
-
 print(line)
+print("\n")
